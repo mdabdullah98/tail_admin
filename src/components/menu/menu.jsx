@@ -14,7 +14,7 @@ import { dashBoardList, taskArray, forms, pages, table } from "./menu.data.js";
 
 function Menu() {
   return (
-    <DashboardMenu className="w-full  mt-5 z-40 ">
+    <DashboardMenu className="p-6 w-full  mt-5 z-40 ">
       <h6 className="dashboard-heading">menu</h6>
 
       <Accordian SidebarIcons={LayoutDashboard} dataArray={dashBoardList}>

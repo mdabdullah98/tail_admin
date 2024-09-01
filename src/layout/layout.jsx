@@ -1,4 +1,3 @@
-import React from "react";
 import Sidebar from "@/components/sidebar/sidebar";
 import { Outlet } from "react-router-dom";
 import Header from "@/components/header/header";
@@ -9,7 +8,7 @@ function Layout() {
       <Sidebar />
 
       {/* header and outlet */}
-      <div className="header-and-outlet h-svh overflow-x-hidden overflow-y-auto  flex-1  ">
+      <div className="header-and-outlet h-svh overflow-x-hidden overflow-y-auto  flex-1 scroll-smooth bg-slate-200">
         <Header />
 
         <Outlet />

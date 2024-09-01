@@ -7,13 +7,11 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-import { Button, buttonVariants } from "../ui/button";
+import { Button } from "../ui/button";
 
 import { NavLink } from "react-router-dom";
 
 function Accordian({ children, SidebarIcons, dataArray = [] }) {
-  console.log(dataArray);
-
   return (
     <Accordion type="single" collapsible className="w-full text-slate-300 ">
       <AccordionItem value="item-1" className="border-none">
