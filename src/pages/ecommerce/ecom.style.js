@@ -4,6 +4,7 @@ export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  margin: 1.8rem auto;
   div:nth-child(1) {
     width: 70%;
     height: 20rem;

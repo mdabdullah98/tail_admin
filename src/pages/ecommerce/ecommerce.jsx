@@ -72,8 +72,8 @@ function Ecommerce() {
       </div>
 
       <Wrapper>
-        <div className="bg-slate-300"></div>
-        <div className="bg-slate-300"></div>
+        <div className="bg-blue-200"></div>
+        <div className="bg-blue-400"></div>
       </Wrapper>
     </div>
   );
